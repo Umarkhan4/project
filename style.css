@@ -13,19 +13,20 @@ body{
     position: fixed;
 
 }
-li{
+.navbar ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.navbar li{
     text-decoration: none;
     margin-right: 30px;
     cursor: pointer;
     font-size: 20px;
     padding-top: 6px;
 }
- ul{
-    float: right;
-    display: flex;
-    list-style-type: none;
-    margin-right: 30px;
-}
+
 .main{
          background-image: linear-gradient(231deg,#0000,#696666); 
      width: 100%; 
@@ -130,4 +131,38 @@ img:hover{
     text-align: center;
     margin-top: 62px;
     background-color: #3C2A21;
+    display: flex;
+    font-size: 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
   }
+  .footer li{
+    margin-left: 80px;
+  }
+  .bottom_footer{
+    width: 100vw;
+    background-color: rgb(198, 77, 77);
+    height: 3px;
+    border: none;
+    margin: auto;
+
+}
+.last_footer{
+    background-color: #696666;
+    color: aliceblue;
+    padding: 1px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.last_footer h1{
+    display:inline-block;
+}
+.last_footer p{
+    font-size: larger;
+    text-align: justify;
+    display: inline;
+    float: right;
+    margin-right: 30px;
+}
